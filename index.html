@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>main</title>
+
+    <link rel="stylesheet" href="./CSS/basic.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/top.css">
+
+
+    <style>
+        /* 배경 이미지 */
+        body {
+            margin: 0px auto; /* 가운데 정렬 */
+            background-image: url(./images/Alphonse\ Maria\ Mucha/backgroundimg2.png);
+            background-repeat: no-repeat; /* 반복 안함 */
+            background-size: 960px auto; /*가로 세로*/
+            background-position: center top; /* 가로 세로 */            
+        }
+
+        /* section 부분*/
+        .section{
+            width: 960px;
+        }
+        .middle{            
+            height: 500px;            
+        }
+        .middle_bottom{
+            width: 960px;
+            height: 230px;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;/*수평 등간격 정렬*/
+            /*background-color: aqua; /* 지울부분 */
+        }
+        .middle_box1{
+            float: left;
+            width: 300px;
+            height: 200px;
+
+             /* background-color: aqua; /* 지울부분 */
+        }
+        .middle_box2{
+            float: left;
+            width: 300px;
+            height: 200px;
+             /* background-color: aqua; /* 지울부분 */
+        }
+        .middle_box3{
+            float: left;
+            width: 300px;
+            height: 200px;
+             /* background-color: aqua;  /* 지울부분 */
+        }
+        .in_box1{            
+            width: 270px;
+            height: 170px;
+            border: 1px solid rgb(163, 154, 127);
+            border-radius: 10px;
+            margin: auto;
+            margin-top: 3px;
+            /* background-color: rgb(0, 255, 145);  /* 지울부분 */
+        }
+        .in_box2{            
+            width: 270px;
+            height: 170px;
+            border: 1px solid rgb(163, 154, 127);
+            border-radius: 10px;
+            margin: auto;
+            margin-top: 3px;
+            /* background-color: rgb(0, 255, 145); /* 지울부분 */
+        }
+        .in_box3{            
+            width: 270px;
+            height: 170px;
+            border: 1px solid rgb(163, 154, 127);
+            border-radius: 10px;
+            margin: auto;
+            margin-top: 3px;
+            /* background-color: rgb(0, 255, 145);  /* 지울부분 */
+        }
+
+
+
+
+
+    </style>
+</head>
+
+<body>          
+    <!-- top 부분 -->
+    <div class="top">
+        <div class="login">
+            <a href="#">로그인</a>
+            <a href="#">회원가입</a>
+        </div>
+        <div class="top_main">
+            <h1>Alphonse Maria Mucha</h1>
+        </div>
+        <div class="hr_con">
+        <hr />
+        <div class="top_nav">    
+            <a href="#">공지사항</a>
+            <a href="#">전시회 안내</a>
+            <a href="#">작품 이미지</a>
+            <a href="#">지난 전시</a>
+            <a href="#">오시는길</a>               
+        </div>
+        <hr /> 
+    </div>
+    </div>
+
+    <!-- section 부분 -->
+    <div class="section">
+        <div class="middle"></div>
+        <div class="middle_bottom">
+            <div class="middle_box1">
+                <h4>&nbsp;&nbsp;&nbsp;공지사항</h4>
+                <div class="in_box1">
+                    <a href="#"><h5>공지사항</h5></a>
+                </div>
+                
+            </div>
+            <div class="middle_box2">
+                <h4>&nbsp;&nbsp;&nbsp;작품 이미지</h4>
+                <div class="in_box2">
+                    <a href="#"><h5>이미지 넣기</h5></a>
+                </div>
+            </div>
+            <div class="middle_box3">
+                <h4>&nbsp;&nbsp;&nbsp;지난 전시</h4>
+                <div class="in_box3">
+                    <a href="#"><h5>이미지넣기</h5></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer 부분 -->   
+    <footer>   
+        <hr />
+        <div class="footer_nav">
+            <a href="#">정보공개알림</a> | 
+            <a href="#">개인정보처리방침</a> | 
+            <a href="#">이용규정</a> | 
+            <a href="#">이메일무단수집거부</a>
+            </div>
+        <div class="addr">
+            <ul>
+                <li>(우)12345 경기도 군포시 고산로 999</li>
+                <li>Copyright &copy; 2022 군포문화예술회관 All Right Reserved</li>
+            </ul>
+        </div>    
+    </footer>
+
+</body>
+</html>

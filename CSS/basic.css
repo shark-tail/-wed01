@@ -1,0 +1,62 @@
+        
+        /* 주의사항 <style></style>은 사용하지 않는다. */
+
+        /* 설정 초기화 */
+        *{ /* '*'은 전체해당. 그러나 가끔 안 먹는게 있어서 부분에서도 다 초기화 설정함. */
+            margin: 0px;
+            padding: 0px;
+        }
+        /* 
+        body, a, li, ... : 선택자
+        태그 선택자 : 태그명 그래도 사용
+        클래스 선택자 : .클래스명
+        id 선택자 : #아이디명
+        */
+        body{ /* 속성 : 값; */
+            width: 960px;/* 960px;*/
+            margin: 0px auto; /* 가운데 정렬 */
+        }                
+        
+        a{ /* a = 앵커 태그 */
+            text-decoration: none; /* 하이퍼링크에 있는 라인 설정-위,중간,아래,도트,솔리드 등 다양, */
+            color: black; /* 검정색 = #000000, #000, rgb(0,0,0) */
+            margin: 0px;
+            padding: 0px;
+        }
+        a:visited{ /* visited - 링크 누른 후 글자 속성*/ /* hover - 객체에 마우스가 올라갔을때. */
+            text-decoration: none; /* 하이퍼링크에 있는 라인 설정-위,중간,아래,도트,솔리드 등 다양, */
+            color: black; /* 검정색 = #000000, #000, rgb(0,0,0) */
+            margin: 0px;
+            padding: 0px;
+        }
+        a:hover{
+            color:  #ff9900;
+        }
+        ui{
+            margin: 0px;
+            padding: 0px;
+        }
+        li{
+            list-style: none; /* 메뉴 리스트에 스타일 설정 */
+            margin: 0px;
+            padding: 0px;
+        }
+        img{
+            border: 0px;
+            margin: 0px;
+            padding: 0px;
+        }
+        hr{ /* 수평선을 body설정 값 밖으로 수평선을 그리는 방법*/
+            width: 100vw; /* 보이는 부분이 기준이 되는 설정 vw */
+            border-color: rgba(220, 211, 185, 0.819); /* 수정부분 */
+            position: absolute; /*독자적인 위치. 다른 레이어이다. 상하순서가 중요!!*/
+            left: 0px; 
+            /*margin: 10px; /* 수정부분 */
+        }
+        table,tr,td,th{ /* 테이블 초기화 */
+            padding: 0px; margin: 0px;
+        } 
+        table {
+            border-collapse: collapse;
+            border-spacing: 0px;
+        }
